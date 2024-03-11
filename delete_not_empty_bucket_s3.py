@@ -22,10 +22,10 @@ with open('root_paths_1.txt') as f:
 session = boto3.session.Session()
 
 s3_client = session.client(
-    service_name='s3',
-    aws_access_key_id='62yrdd5rsakl2xx5',
-    aws_secret_access_key='lKO3cK4zYEsdhFZdZ4ng1T9MZ3dJSFf5WD2xQ1KD',
-    endpoint_url='https://s3mts.ru:443',
+    service_name='',
+    aws_access_key_id='',
+    aws_secret_access_key='',
+    endpoint_url='',
 )
 
 # validCount = {}
