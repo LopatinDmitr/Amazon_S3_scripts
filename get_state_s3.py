@@ -11,7 +11,7 @@ s3_client = session.client(
     service_name='s3',
     aws_access_key_id='aws_access_key_id',
     aws_secret_access_key='aws_secret_access_key',
-    endpoint_url='https://s3mts.ru:443',
+    endpoint_url='',
 )
 
 validCount = {}
